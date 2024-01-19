@@ -154,21 +154,21 @@ function Contact() {
             <div className="mt-4 font-semibold">Follow Us</div>
             <div className="mt-1 flex gap-1">
               <a
-                href=""
+                href="https://www.instagram.com/vikiade_11/"
                 target="_blank"
                 className="text-blue-600 text-2xl hover:scale-105 hover:text-blue-700"
               >
                 <InstagramLogo weight="fill" />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/vikiadesafaat/"
                 target="_blank"
                 className="text-blue-600 text-2xl hover:scale-105 hover:text-blue-700"
               >
                 <GithubLogo weight="fill" />
               </a>
               <a
-                href=""
+                href="https://github.com/vikiade00"
                 target="_blank"
                 className="text-blue-600 text-2xl hover:scale-105 hover:text-blue-700"
               >

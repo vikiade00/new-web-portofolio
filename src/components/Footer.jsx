@@ -10,15 +10,29 @@ function Footer() {
       <div className="flex justify-center items-center gap-2">
         <div className="text-sm text-gray-400">Follow Us</div>
         <ul className="flex gap-1 text-gray-600">
-          <li className="hover:text-white cursor-pointer">
-            <InstagramLogo weight="fill" size={20} />
-          </li>
-          <li className="hover:text-white cursor-pointer">
-            <LinkedinLogo weight="fill" size={20} />
-          </li>
-          <li className="hover:text-white cursor-pointer">
-            <GithubLogo weight="fill" size={20} />
-          </li>
+          <a href="https://www.instagram.com/vikiade_11/" target="__blank">
+            <li className="hover:text-white cursor-pointer">
+              <InstagramLogo weight="fill" size={20} />
+            </li>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vikiadesafaat/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="hover:text-white cursor-pointer">
+              <LinkedinLogo weight="fill" size={20} />
+            </li>
+          </a>
+          <a
+            href="https://github.com/vikiade00"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li className="hover:text-white cursor-pointer">
+              <GithubLogo weight="fill" size={20} />
+            </li>
+          </a>
         </ul>
       </div>
     </div>
